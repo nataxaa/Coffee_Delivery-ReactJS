@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 
-    margin-top:2rem ;
+    margin-top:5rem ;
     div.e{
         display:grid ;
         grid-template-columns: repeat(4, 1fr) ;
@@ -66,6 +66,9 @@ export const Container = styled.div`
                 color: var(--white) ;
                 padding:8px ;
                 border-radius:6px ;
+                .link{
+                    color: var(--white) ;
+                }
             }
             span.qtd{
                 background-color: var(--base-button);

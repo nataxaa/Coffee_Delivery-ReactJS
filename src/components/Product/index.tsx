@@ -1,11 +1,16 @@
 import { arrayProduct } from "../../data/data";
 import { Container } from "./style";
 import {FaShoppingCart} from 'react-icons/fa'
+import { CartContext } from "../../context/cart";
+import { useContext } from "react";
+import { Link } from "react-router-dom";
 
 
 export function Product(){
 
     const products = arrayProduct
+
+    const {AddProduct, RemoveProduct}:any = useContext(CartContext)
 
     return(
         <Container>
@@ -26,11 +31,11 @@ export function Product(){
                         <span className="preco"><p>R$</p>{props.preço}0</span>
                         <div>
                             <span className="qtd">
-                                <button>-</button>
+                                <button onClick={()=>RemoveProduct(props.id, props.preço)}>-</button>
                                 {props.qtd}
-                                <button>+</button>
+                                <button onClick={()=>AddProduct(props.id, props.preço)}>+</button>
                             </span>
-                            <button className="icon-shop"><FaShoppingCart/></button>
+                            <button className="icon-shop"><Link className="link" to={`/ShopProduct`}><FaShoppingCart/></Link></button>
                         </div>
                     </div>
                 </div>

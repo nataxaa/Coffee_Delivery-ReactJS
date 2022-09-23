@@ -4,6 +4,7 @@ import {FiPackage} from 'react-icons/fi'
 import {FaShoppingCart} from 'react-icons/fa'
 import {GiCoffeeCup} from 'react-icons/gi'
 import {RiTimerFill} from 'react-icons/ri'
+import { Product } from "../Product";
 
 
 export function Home(){
@@ -22,6 +23,7 @@ export function Home(){
                 </div>
                 <img src={image} alt="imagem da pagina inicial, um cafe" />
             </div>
+            <Product/>
         </Container>
     )
 }

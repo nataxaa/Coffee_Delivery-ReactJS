@@ -7,7 +7,30 @@ export const Container = styled.header`
     justify-content:space-between ;
     padding:2rem 0 ;
     align-items:center ;
+    width:1029px ;
    
+    .icon-shop{
+        color: var(--yellow-dark) ;
+    }
+
+    .link{
+        display:flex ;
+        text-decoration:none ;
+    }
+    .value-quant{
+        position: absolute;
+        font-size:11px;
+        top:30px ;
+        right:155px ;
+        color:var(--white) ;
+        background-color: var(--yellow-dark) ;
+        border-radius:12px ;
+        padding: 2px 4px ;
+        align-items:center ;
+        text-align:center ;
+        display:flex ;
+    }
+
    div{
     display:flex ;
     gap:12px;

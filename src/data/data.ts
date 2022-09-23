@@ -21,7 +21,7 @@ export const arrayProduct = [
         name: 'Expresso Tradicional',
         preço: 9.90,
         image: image1,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'}],
         description: 'O tradicional café feito com água quente e grãos moídos'
     },
@@ -30,7 +30,7 @@ export const arrayProduct = [
         name: 'Expresso Americano',
         preço: 9.90,
         image: image2,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'}],
         description: 'Expresso diluído, menos intenso que o tradicional'
     },
@@ -39,7 +39,7 @@ export const arrayProduct = [
         name: 'Expresso Cremoso',
         preço: 9.90,
         image:image3,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'}],
         description: 'Café expresso tradicional com espuma cremosa'
     },
@@ -48,7 +48,7 @@ export const arrayProduct = [
         name: 'Expresso Gelado',
         preço: 9.90,
         image:image4,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'GELADO'}],
         description: 'Bebida preparada com café expresso e cubos de gelo'
     },
@@ -57,7 +57,7 @@ export const arrayProduct = [
         name: 'Café com Leite',
         preço: 9.90,
         image: image5,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'COM LEITE'}],
         description: 'Meio a meio de expresso tradicional com leite vaporizado'
     },
@@ -66,7 +66,7 @@ export const arrayProduct = [
         name: 'Latte',
         preço: 9.90,
         image: image6,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'COM LEITE'}],
         description: 'Uma dose de café expresso com o dobro de leite e espuma cremosa'
     },
@@ -75,7 +75,7 @@ export const arrayProduct = [
         name: 'Capuccino',
         preço: 9.90,
         image: image7,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'COM LEITE'}],
         description: 'Bebida com canela feita de doses iguais de café, leite e espuma'   
     },
@@ -84,7 +84,7 @@ export const arrayProduct = [
         name: 'Macchiato',
         preço: 9.90,
         image: image8,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'COM LEITE'}],
         description: 'Café expresso misturado com um pouco de leite quente e espuma'
     },
@@ -93,7 +93,7 @@ export const arrayProduct = [
         name: 'Mocaccino',
         preço: 9.90,
         image: image9,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'TRADICIONAL'},{id:1, name: 'COM LEITE'}],
         description: 'Café expresso com calda de chocolate, pouco leite e espuma'
     },
@@ -102,7 +102,7 @@ export const arrayProduct = [
         name: 'Chocolate Quente',
         preço: 9.90,
         image: image10,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'ESPECIAL'},{id:1, name: 'COM LEITE'}],
         description: 'Bebida feita com chocolate dissolvido no leite quente e café'
     },
@@ -111,7 +111,7 @@ export const arrayProduct = [
         name: 'Cubano',
         preço: 9.90,
         image: image11,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'ESPECIAL'},{id:1, name: 'ALCOÓLICO'},{id:2, name: 'GELADO'}],
         description: 'Drink gelado de café expresso com rum, creme de leite e hortelã'
     },
@@ -120,7 +120,7 @@ export const arrayProduct = [
         name: 'Havaino',
         preço: 9.90,
         image: image12,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'ESPECIAL'}],
         description: 'Bebida adocicada preparada com café e leite de coco'
     },
@@ -129,7 +129,7 @@ export const arrayProduct = [
         name: 'Árabe',
         preço: 9.90,
         image: image13,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'ESPECIAL'}],
         description: 'Bebida preparada com grãos de café árabe e especiarias'
     },
@@ -138,7 +138,7 @@ export const arrayProduct = [
         name: 'Irlandês',
         preço: 9.90,
         image: image14,
-        qtd:1, 
+        qtd:0, 
         tipo: [{ id:0, name:'ESPECIAL'},{id:1, name: 'ALCOÓLICO'}],
         description: 'Bebida a base de café, uísque irlandês, açúcar e chantilly'
     },
