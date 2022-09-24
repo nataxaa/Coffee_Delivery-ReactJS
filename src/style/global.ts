@@ -33,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family:'Roboto', 'Baloo 2', cursive, sans-serif;
     background-color: var(--background) ;
     margin: 0 10rem ;
+    width:1029px ;
 
   }
 

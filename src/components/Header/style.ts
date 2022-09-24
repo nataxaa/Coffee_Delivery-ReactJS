@@ -21,7 +21,7 @@ export const Container = styled.header`
         position: absolute;
         font-size:11px;
         top:30px ;
-        right:155px ;
+        margin-left:14px ;
         color:var(--white) ;
         background-color: var(--yellow-dark) ;
         border-radius:12px ;

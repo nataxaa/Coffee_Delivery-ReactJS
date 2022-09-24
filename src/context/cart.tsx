@@ -16,12 +16,24 @@ interface ProductProps{
     image: any
 }
 
+interface EndereçoProps{
+    cep: number;
+    rua: string;
+    numero: number;
+    complemento?: string;
+    bairro: string;
+    cidade: string;
+    uf: string;
+    type: string
+}
+
 export default function CartProvider({children}:any){
 
     const produtos = arrayProduct
     const [item, setItem] = useState<any[]>([])
     const [total, setTotal] = useState(0);
     const [quant, setQuant] = useState(0);
+    const [endereco, setEndereco] = useState<EndereçoProps[]>([])
 
     function AddProduct(id: number, preço: number){
         const copy = [...item]
@@ -89,10 +101,14 @@ export default function CartProvider({children}:any){
 
     }
 
+    function AddEndereco(cep: number, rua: string, numero: number,  complemento: string,  bairro: string, cidade: string , uf: string, type: string){
+        endereco.push({cep:cep, rua:rua, numero:numero, complemento:complemento, bairro: bairro, cidade:cidade, uf:uf, type:type})
+        console.log(endereco)
+    }
 
 
     return(
-        <CartContext.Provider value={{AddProduct, quant, total, item, RemoveProduct, RemoveComplete}}>
+        <CartContext.Provider value={{AddProduct, quant, total, item, RemoveProduct, RemoveComplete, AddEndereco, endereco}}>
             {children}
         </CartContext.Provider>
     )

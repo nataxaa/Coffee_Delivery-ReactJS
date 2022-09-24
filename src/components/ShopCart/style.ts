@@ -41,14 +41,7 @@ div.pay{
         justify-content:center ;
         margin-top:2rem ;
         gap:12px;
-        button{
-            padding:16px ;
-            background-color: var(--base-button) ;
-            color: var(--base-text) ;
-            border-radius: 6px ;
-            border:none ;
-            cursor: pointer;
-        }
+        
     }
 
 }
@@ -209,6 +202,33 @@ form.cardapio{
         cursor:pointer ;
     }
 
+    
 }
 
 `
+
+interface RadioBoxProps {
+    isActive: boolean;
+    activeColor: 'blue' | 'red' |'green' ;
+  }
+
+  const colors = {
+    green: '#8047F8',
+    red: '#8047F8',
+    blue: '#8047F8'
+  }
+
+
+  export const Button = styled.button<RadioBoxProps>`
+    cursor: pointer;
+    padding:16px;
+    border-radius: 6px;
+
+    border: 1px solid ${(props) => props.isActive 
+        ? colors[props.activeColor]
+        : '#EFF1C5'};
+         
+  
+  `
+
+
