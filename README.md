@@ -47,7 +47,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br />
 
+## ⛅
 
+- [Deploy](https://stately-custard-83f270.netlify.app/)
 
 <p align="center">
   Made with 💙 by <a href="https://www.linkedin.com/in/natan-xavier-a266a0228/"> Natan Xavier </a>
